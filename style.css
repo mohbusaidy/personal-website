@@ -4,11 +4,15 @@
   font-family: "Josefin Sans", sans-serif;
   box-sizing: border-box;
 }
+#icon {
+  width: 30px;
+  cursor: pointer;
+}
 
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url(../personal-website/images/backround-pic.JPG);
+  background-color: rgb(255, 255, 255);
   background-size: cover;
   background-position: center;
 }
@@ -16,9 +20,17 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 84%;
   padding-top: 45px;
   padding-left: 8%;
   padding-right: 8%;
+}
+nav ul li a{
+text-decoration: none;
+color: #606163
+}
+nav ul li a:hover{
+color: ff4321;
 }
 .logo {
   color: rgb(0, 0, 0);
@@ -29,5 +41,5 @@ nav {
 nav ul li {
   list-style-type: none;
   display: inline-block;
-  padding: 10px 25px;
+  padding: 30px 25px 25px 25px 25px 25px;
 }
